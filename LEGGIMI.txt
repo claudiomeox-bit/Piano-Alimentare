@@ -1,0 +1,32 @@
+PIANO ALIMENTARE - WEB APP (PWA)
+
+Contenuto della cartella:
+  index.html            l'app
+  manifest.webmanifest  nome e icone dell'app
+  sw.js                 fa funzionare l'app anche senza internet
+  icons/                le icone
+
+OPZIONE A - Netlify Drop (la piu' veloce, gratis, senza account complicati)
+  1. Dal computer apri https://app.netlify.com/drop
+  2. Trascina l'intera cartella "piano-alimentare-pwa" (non lo zip) nella pagina.
+  3. Ti viene dato un indirizzo https://....netlify.app : e' il link della tua app.
+  4. Se vuoi tenerlo, accedi/registrati quando richiesto, altrimenti il sito puo' scadere.
+
+OPZIONE B - GitHub Pages (gratis e permanente)
+  1. Crea un account su github.com e un nuovo repository pubblico (es. "piano").
+  2. "Add file" > "Upload files": carica tutti i file della cartella (index.html, sw.js, manifest, cartella icons).
+  3. Settings > Pages > Branch: main, cartella /(root) > Save.
+  4. Dopo un minuto trovi l'indirizzo https://TUONOME.github.io/piano/
+
+INSTALLARE SUL TABLET ANDROID
+  1. Apri l'indirizzo in Chrome.
+  2. Menu (tre puntini) > "Installa app" oppure "Aggiungi a schermata Home".
+  3. Apri l'app dall'icona: funziona anche offline e le spunte "Fatto" restano salvate.
+
+AGGIORNARE L'APP IN FUTURO
+  Se modifichi i file, in sw.js cambia "piano-v1" in "piano-v2" prima di ricaricarli,
+  cosi' il tablet scarica la versione nuova.
+
+NOTE
+  - L'app non invia dati a nessuno: tutto resta nel browser del tablet.
+  - Il piano segue il menu della Dott.ssa Elisa Spaghetti; le rotazioni sono una proposta.
